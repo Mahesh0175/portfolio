@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 import NEWS from "../../img/news.png";
 import Ecommerce from "../../img/ecommerce.png";
 import TEXT from "../../img/text.png";
