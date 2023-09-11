@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 
 import { Pagination } from "swiper";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
