@@ -11,6 +11,11 @@ import profilePic3 from "../../img/profile3.jpg";
 import profilePic4 from "../../img/profile4.jpg";
 
 const Testimonial = () => {
+  <div>
+    <h1>
+      Testimonial
+    </h1>
+  </div>
   const clients = [
     {
       img: profilePic1,
@@ -40,6 +45,7 @@ const Testimonial = () => {
         <span>Clients always get </span>
         <span>Exceptional Work </span>
         <span>from me...</span>
+        <span>upcoming</span>
         <div
           className="blur t-blur1"
           style={{ background: "var(--purple)" }}

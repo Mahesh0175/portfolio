@@ -9,11 +9,13 @@
     <style>
         @font-face {
             font-family: Gumela;
-            src: url('../src/fonts/*');
+            src: url('../src/fonts/your-font-file.woff2') format('woff2');
+            /* Add additional formats (e.g., woff, ttf) for cross-browser compatibility */
         }
         
         * {
-            font-family: "Gumela";
+            font-family: "Gumela", sans-serif;
+            /* Fallback font */
             font-weight: normal;
             font-size: 20px;
         }
@@ -22,6 +24,7 @@
             margin: 0;
         }
     </style>
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
